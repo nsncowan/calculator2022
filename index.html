@@ -7,5 +7,34 @@
   </head>
   <body>
     <h1>Calculator</h1>
+    <form id="calculator">
+      <label for="input1">1st number: </label>
+      <input id="input1" type="number">
+      <label for="input2">2nd number: </label>
+      <input id="input2" type="number">
+
+      <label>
+        <input type="radio" name="operator" value="add">
+        add
+      </label>
+      <label>
+        <input type="radio" name="operator" value="subtract">
+        subtract
+      </label>
+      <label>
+        <input type="radio" name="operator" value="multiply">
+        multiply
+      </label>
+      <label>
+        <input type="radio" name="operator" value="divide">
+        divide
+      </label>
+
+      <button type="submit" class="button">Calculate</button>
+    </form>
+ 
+    <h2>Results</h2>
+    <p id="output"></p>
+
   </body>
 </html>
